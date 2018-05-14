@@ -10,7 +10,8 @@
         "country": "",
         "link": "",
         "url": "",
-        "price": 0
+        "price": 0,
+        "icon": "play-box-outline"
     },
     "bulksms": {
         "description": "Sends you SMS alerts using BulkSms gateway.",
@@ -24,7 +25,8 @@
         "country": "",
         "link": "https://github.com/tangb/Raspiot/wiki/Bulksms",
         "url": "",
-        "price": 0
+        "price": 0,
+        "icon": "message-processing"
     },
     "database": {
         "description": "Gives you access to chart feature allowing you to follow easily your devices.",
@@ -38,7 +40,8 @@
         "country": "",
         "link": "",
         "url": "",
-        "price": 0
+        "price": 0,
+        "icon": "database"
     },
     "developer": {
         "description": "Help you to develop on Raspiot framework.",
@@ -51,7 +54,8 @@
         "country": "",
         "link": "https://github.com/tangb/Raspiot/wiki/Developer",
         "url": "",
-        "price": 0
+        "price": 0,
+        "icon": "worker"
     },
     "freemobilesms": {
         "description": "Sends you SMS alerts using french Freemobile provider.",
@@ -65,7 +69,8 @@
         "country": "fr",
         "link": "",
         "url": "",
-        "price": 0
+        "price": 0,
+        "icon": "message-processing"
     },
     "gpios": {
         "description": "Gives you access to raspberry pins to configure your inputs/ouputs as you wish.",
@@ -78,7 +83,8 @@
         "country": "",
         "link": "",
         "url": "",
-        "price": 0
+        "price": 0,
+        "icon": "video-input-component"
     },
     "messageboard": {
         "description": "Displays your own infos on a single line LED panel.",
@@ -91,7 +97,8 @@
         "country": "",
         "link": "",
         "url": "",
-        "price": 0
+        "price": 0,
+        "icon": "counter"
     },
     "openweathermap": {
         "description": "Gets weather conditions using OpenWeatherMap service.",
@@ -104,7 +111,8 @@
         "country": "",
         "link": "",
         "url": "",
-        "price": 0
+        "price": 0,
+        "icon": "cloud"
     },
     "pushover": {
         "description": "Sends you push alerts using Pushover service.",
@@ -118,7 +126,8 @@
         "country": "",
         "link": "",
         "url": "",
-        "price": 0
+        "price": 0,
+        "icon": "send"
     },
     "respeaker2mic": {
         "description": "Configures your Respeaker2mic hardware.",
@@ -133,7 +142,8 @@
         "country": "",
         "link": "",
         "url": "",
-        "price": 0
+        "price": 0,
+        "icon": "microphone-settings"
     },
     "sensors": {
         "description": "Implements easily and quickly sensors you need.",
@@ -151,7 +161,8 @@
         "country": "",
         "link": "",
         "url": "",
-        "price": 0
+        "price": 0,
+        "icon": "chip"
     },
     "shutters": {
         "description": "Controls your roller shutters.",
@@ -167,7 +178,8 @@
         "country": "",
         "link": "",
         "url": "",
-        "price": 10
+        "price": 10,
+        "icon": "unfold-more-horizontal"
     },
     "smtp": {
         "description": "Sends you alerts by email.",
@@ -181,7 +193,8 @@
         "country": "",
         "link": "",
         "url": "",
-        "price": 0
+        "price": 0,
+        "icon": "email"
     },
     "sounds": {
         "description": "Plays sounds or speech text you want",
@@ -196,7 +209,8 @@
         "country": "",
         "link": "",
         "url": "",
-        "price": 0
+        "price": 0,
+        "icon": "volume-high"
     },
     "speechrecognition": {
         "description": "Control your device using voice.",
@@ -212,6 +226,7 @@
         "country": "",
         "link": "",
         "url": "",
-        "price": 0
+        "price": 0,
+        "icon": "text-to-speech"
     }
 }
