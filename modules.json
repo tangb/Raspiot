@@ -1,232 +1,235 @@
 {
-    "actions": {
-        "description": "Helps you trigger custom action to fit your needs",
-        "deps": [],
-        "version": "1.0.0",
-        "tags": [
-            "script",
-            "custom"
-        ],
-        "country": "",
-        "link": "",
-        "url": "",
-        "price": 0,
-        "icon": "play-box-outline"
-    },
-    "bulksms": {
-        "description": "Sends you SMS alerts using BulkSms gateway.",
-        "deps": [],
-        "version": "1.0.0",
-        "tags": [
-            "sms",
-            "alert",
-            "communication"
-        ],
-        "country": "",
-        "link": "https://github.com/tangb/Raspiot/wiki/Bulksms",
-        "url": "",
-        "price": 0,
-        "icon": "message-processing"
-    },
-    "database": {
-        "description": "Gives you access to chart feature allowing you to follow easily your devices.",
-        "deps": [],
-        "version": "1.0.0",
-        "tags": [
-            "sensors",
-            "graphs",
-            "charts"
-        ],
-        "country": "",
-        "link": "",
-        "url": "",
-        "price": 0,
-        "icon": "database"
-    },
-    "developer": {
-        "description": "Help you to develop on Raspiot framework.",
-        "deps": [],
-        "version": "1.0.0",
-        "tags": [
-            "python",
-            "raspiot"
-        ],
-        "country": "",
-        "link": "https://github.com/tangb/Raspiot/wiki/Developer",
-        "url": "",
-        "price": 0,
-        "icon": "worker"
-    },
-    "freemobilesms": {
-        "description": "Sends you SMS alerts using french Freemobile provider.",
-        "deps": [],
-        "version": "1.0.0",
-        "tags": [
-            "sms",
-            "alert",
-            "communication"
-        ],
-        "country": "fr",
-        "link": "",
-        "url": "",
-        "price": 0,
-        "icon": "message-processing"
-    },
-    "gpios": {
-        "description": "Gives you access to raspberry pins to configure your inputs/ouputs as you wish.",
-        "deps": [],
-        "version": "1.0.0",
-        "tags": [
-            "sensors",
-            "actuators"
-        ],
-        "country": "",
-        "link": "",
-        "url": "",
-        "price": 0,
-        "icon": "video-input-component"
-    },
-    "messageboard": {
-        "description": "Displays your own infos on a single line LED panel.",
-        "deps": [],
-        "version": "1.0.0",
-        "tags": [
-            "display",
-            "leds"
-        ],
-        "country": "",
-        "link": "",
-        "url": "",
-        "price": 0,
-        "icon": "counter"
-    },
-    "openweathermap": {
-        "description": "Gets weather conditions using OpenWeatherMap service.",
-        "deps": [],
-        "version": "1.0.0",
-        "tags": [
-            "weather",
-            "forecast"
-        ],
-        "country": "",
-        "link": "",
-        "url": "",
-        "price": 0,
-        "icon": "cloud"
-    },
-    "pushover": {
-        "description": "Sends you push alerts using Pushover service.",
-        "deps": [],
-        "version": "1.0.0",
-        "tags": [
-            "push",
-            "alert",
-            "communication"
-        ],
-        "country": "",
-        "link": "",
-        "url": "",
-        "price": 0,
-        "icon": "send"
-    },
-    "respeaker2mic": {
-        "description": "Configures your Respeaker2mic hardware.",
-        "deps": [
-            "gpios"
-        ],
-        "version": "1.0.0",
-        "tags": [
-            "audio",
-            "mic"
-        ],
-        "country": "",
-        "link": "",
-        "url": "",
-        "price": 0,
-        "icon": "microphone-settings"
-    },
-    "sensors": {
-        "description": "Implements easily and quickly sensors you need.",
-        "deps": [
-            "gpios"
-        ],
-        "version": "1.0.0",
-        "tags": [
-            "sensors",
-            "temperature",
-            "motion",
-            "onewire",
-            "1wire"
-        ],
-        "country": "",
-        "link": "",
-        "url": "",
-        "price": 0,
-        "icon": "chip"
-    },
-    "shutters": {
-        "description": "Controls your roller shutters.",
-        "deps": [
-            "gpios"
-        ],
-        "version": "1.0.0",
-        "tags": [
-            "shutter",
-            "drape",
-            "window"
-        ],
-        "country": "",
-        "link": "",
-        "url": "",
-        "price": 10,
-        "icon": "unfold-more-horizontal"
-    },
-    "smtp": {
-        "description": "Sends you alerts by email.",
-        "deps": [],
-        "version": "1.0.0",
-        "tags": [
-            "email",
-            "alert",
-            "communication"
-        ],
-        "country": "",
-        "link": "",
-        "url": "",
-        "price": 0,
-        "icon": "email"
-    },
-    "sounds": {
-        "description": "Plays sounds or speech text you want",
-        "deps": [],
-        "version": "1.0.0",
-        "tags": [
-            "audio",
-            "sound",
-            "speech",
-            "music"
-        ],
-        "country": "",
-        "link": "",
-        "url": "",
-        "price": 0,
-        "icon": "volume-high"
-    },
-    "speechrecognition": {
-        "description": "Control your device using voice.",
-        "deps": [],
-        "version": "1.0.0",
-        "tags": [
-            "audio",
-            "voice",
-            "speech",
-            "stt",
-            "speechtotext"
-        ],
-        "country": "",
-        "link": "",
-        "url": "",
-        "price": 0,
-        "icon": "text-to-speech"
+    "update": 1526376790,
+    "list": {
+        "actions": {
+            "description": "Helps you trigger custom action to fit your needs",
+            "deps": [],
+            "version": "1.0.0",
+            "tags": [
+                "script",
+                "custom"
+            ],
+            "country": "",
+            "link": "",
+            "url": "",
+            "price": 0,
+            "icon": "play-box-outline"
+        },
+        "bulksms": {
+            "description": "Sends you SMS alerts using BulkSms gateway.",
+            "deps": [],
+            "version": "1.0.0",
+            "tags": [
+                "sms",
+                "alert",
+                "communication"
+            ],
+            "country": "",
+            "link": "https://github.com/tangb/Raspiot/wiki/Bulksms",
+            "url": "",
+            "price": 0,
+            "icon": "message-processing"
+        },
+        "database": {
+            "description": "Gives you access to chart feature allowing you to follow easily your devices.",
+            "deps": [],
+            "version": "1.0.0",
+            "tags": [
+                "sensors",
+                "graphs",
+                "charts"
+            ],
+            "country": "",
+            "link": "",
+            "url": "",
+            "price": 0,
+            "icon": "database"
+        },
+        "developer": {
+            "description": "Help you to develop on Raspiot framework.",
+            "deps": [],
+            "version": "1.0.0",
+            "tags": [
+                "python",
+                "raspiot"
+            ],
+            "country": "",
+            "link": "https://github.com/tangb/Raspiot/wiki/Developer",
+            "url": "",
+            "price": 0,
+            "icon": "worker"
+        },
+        "freemobilesms": {
+            "description": "Sends you SMS alerts using french Freemobile provider.",
+            "deps": [],
+            "version": "1.0.0",
+            "tags": [
+                "sms",
+                "alert",
+                "communication"
+            ],
+            "country": "fr",
+            "link": "",
+            "url": "",
+            "price": 0,
+            "icon": "message-processing"
+        },
+        "gpios": {
+            "description": "Gives you access to raspberry pins to configure your inputs/ouputs as you wish.",
+            "deps": [],
+            "version": "1.0.0",
+            "tags": [
+                "sensors",
+                "actuators"
+            ],
+            "country": "",
+            "link": "",
+            "url": "",
+            "price": 0,
+            "icon": "video-input-component"
+        },
+        "messageboard": {
+            "description": "Displays your own infos on a single line LED panel.",
+            "deps": [],
+            "version": "1.0.0",
+            "tags": [
+                "display",
+                "leds"
+            ],
+            "country": "",
+            "link": "",
+            "url": "",
+            "price": 0,
+            "icon": "counter"
+        },
+        "openweathermap": {
+            "description": "Gets weather conditions using OpenWeatherMap service.",
+            "deps": [],
+            "version": "1.0.0",
+            "tags": [
+                "weather",
+                "forecast"
+            ],
+            "country": "",
+            "link": "",
+            "url": "",
+            "price": 0,
+            "icon": "cloud"
+        },
+        "pushover": {
+            "description": "Sends you push alerts using Pushover service.",
+            "deps": [],
+            "version": "1.0.0",
+            "tags": [
+                "push",
+                "alert",
+                "communication"
+            ],
+            "country": "",
+            "link": "",
+            "url": "",
+            "price": 0,
+            "icon": "send"
+        },
+        "respeaker2mic": {
+            "description": "Configures your Respeaker2mic hardware.",
+            "deps": [
+                "gpios"
+            ],
+            "version": "1.0.0",
+            "tags": [
+                "audio",
+                "mic"
+            ],
+            "country": "",
+            "link": "",
+            "url": "",
+            "price": 0,
+            "icon": "microphone-settings"
+        },
+        "sensors": {
+            "description": "Implements easily and quickly sensors you need.",
+            "deps": [
+                "gpios"
+            ],
+            "version": "1.0.0",
+            "tags": [
+                "sensors",
+                "temperature",
+                "motion",
+                "onewire",
+                "1wire"
+            ],
+            "country": "",
+            "link": "",
+            "url": "",
+            "price": 0,
+            "icon": "chip"
+        },
+        "shutters": {
+            "description": "Controls your roller shutters.",
+            "deps": [
+                "gpios"
+            ],
+            "version": "1.0.0",
+            "tags": [
+                "shutter",
+                "drape",
+                "window"
+            ],
+            "country": "",
+            "link": "",
+            "url": "",
+            "price": 10,
+            "icon": "unfold-more-horizontal"
+        },
+        "smtp": {
+            "description": "Sends you alerts by email.",
+            "deps": [],
+            "version": "1.0.0",
+            "tags": [
+                "email",
+                "alert",
+                "communication"
+            ],
+            "country": "",
+            "link": "",
+            "url": "",
+            "price": 0,
+            "icon": "email"
+        },
+        "sounds": {
+            "description": "Plays sounds or speech text you want",
+            "deps": [],
+            "version": "1.0.0",
+            "tags": [
+                "audio",
+                "sound",
+                "speech",
+                "music"
+            ],
+            "country": "",
+            "link": "",
+            "url": "",
+            "price": 0,
+            "icon": "volume-high"
+        },
+        "speechrecognition": {
+            "description": "Control your device using voice.",
+            "deps": [],
+            "version": "1.0.0",
+            "tags": [
+                "audio",
+                "voice",
+                "speech",
+                "stt",
+                "speechtotext"
+            ],
+            "country": "",
+            "link": "",
+            "url": "",
+            "price": 0,
+            "icon": "text-to-speech"
+        }
     }
 }
