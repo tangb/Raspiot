@@ -16,19 +16,25 @@
             "icon": "play-box-outline"
         },
         "bulksms": {
+
             "description": "Sends you SMS alerts using BulkSms gateway.",
-            "deps": [],
-            "version": "1.0.0",
+            "author": "Cleep",
+            "country": null,
+            "price": 0,
             "tags": [
                 "sms",
-                "alert",
-                "communication"
+                "alert"
             ],
-            "country": "",
-            "link": "https://github.com/tangb/Raspiot/wiki/Bulksms",
-            "url": "",
-            "price": 0,
-            "icon": "message-processing"
+            "deps": [],
+            "version": "1.0.0",
+            "urls": {
+                "info": "https://github.com/tangb/Raspiot/wiki/Bulksms",
+                "bugs": null,
+                "site": null,
+                "help": null
+            },
+            "icon": "message-processing",
+            "download": "https://github.com/tangb/raspiot/raw/master/modules/raspiot_bulksms_1.0.0.zip"
         },
         "database": {
             "description": "Gives you access to chart feature allowing you to follow easily your devices.",
