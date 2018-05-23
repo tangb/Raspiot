@@ -16,7 +16,6 @@
             "icon": "play-box-outline"
         },
         "bulksms": {
-
             "description": "Sends you SMS alerts using BulkSms gateway.",
             "author": "Cleep",
             "country": null,
