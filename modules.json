@@ -33,8 +33,8 @@
                 "help": null
             },
             "icon": "message-processing",
-            "download": "https://github.com/tangb/raspiot/raw/master/modules/raspiot_bulksms_1.0.0.zip",
-            "sha256": "492a328d40247aabcb7da39422e4356fed303f05888e9a118e1eb65017fdc947"
+            "download": "https://github.com/tangb/raspiot/raw/master/modules/raspiot_bulksms_1.0.2.zip",
+            "sha256": "5690DE5351D55D5A7E3CF9285A00C0199A2877052D843E5275E799AAF28401F9"
         },
         "database": {
             "description": "Gives you access to chart feature allowing you to follow easily your devices.",
