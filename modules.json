@@ -1,5 +1,5 @@
 {
-    "update": 1526377790,
+    "update": 1526379790,
     "list": {
         "actions": {
             "description": "Helps you trigger custom action to fit your needs",
@@ -25,7 +25,7 @@
                 "alert"
             ],
             "deps": [],
-            "version": "1.0.1",
+            "version": "1.0.2",
             "urls": {
                 "info": "https://github.com/tangb/Raspiot/wiki/Bulksms",
                 "bugs": null,
