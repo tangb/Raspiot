@@ -1,5 +1,5 @@
 {
-    "update": 1529668828,
+    "update": 1533575385,
     "list": {
         "audio": {
             "description": "Configure audio on your device",
@@ -12,7 +12,7 @@
             ],
             "country": "",
             "urls": {
-                "info": null,
+                "info": "https://github.com/tangb/raspiot/wiki/Audio",
                 "bugs": null,
                 "site": null,
                 "help": null
@@ -48,7 +48,7 @@
             "note": 5
         },
         "network": {
-            "description": "Network configuration helper",
+            "description": "Configure how your device connect to your network",
             "deps": [],
             "author": "Cleep",
             "version": "1.0.0",
@@ -59,7 +59,7 @@
             ],
             "country": "",
             "urls": {
-                "info": null,
+                "info": "https://github.com/tangb/raspiot/wiki/Network",
                 "bugs": null,
                 "site": null,
                 "help": null
@@ -72,14 +72,17 @@
             "note": 5
         },
         "system": {
-            "description": "Helps controlling and monitoring the device",
+            "description": "Helps updating, controlling and monitoring the device",
             "deps": [],
             "author": "Cleep",
             "version": "1.0.0",
             "tags": [
                 "troubleshoot",
-                "locale",
-                "hostname"
+                "hostname",
+                "events",
+                "monitoring",
+                "update",
+                "log"
             ],
             "country": "",
             "urls": {
@@ -95,365 +98,26 @@
             "certified": true,
             "note": 5
         },
-        "actions": {
-            "description": "Helps you trigger custom action to fit your needs",
-            "deps": [],
-            "version": "1.0.0",
-            "author": "Cleep",
-            "tags": [
-                "script",
-                "custom"
-            ],
-            "country": "",
-            "urls": {
-                "info": null,
-                "bugs": null,
-                "site": null,
-                "help": null
-            },
-            "price": 0,
-            "icon": "play-box-outline",
-            "download": null,
-            "sha256": null,
-            "certified": true,
-            "note": 5
-        },
-        "bulksms": {
-            "description": "Sends you SMS alerts using BulkSms gateway.",
+        "parameters": {
+            "description": "Configure generic parameters of your device",
             "author": "Cleep",
             "country": null,
             "price": 0,
             "tags": [
-                "sms",
-                "alert"
+                "configuration",
+                "lang",
+                "time",
+                "lang"
             ],
             "deps": [],
             "version": "1.0.2",
             "urls": {
-                "info": "https://github.com/tangb/Raspiot/wiki/Bulksms",
-                "bugs": null,
-                "site": null,
-                "help": null
-            },
-            "icon": "message-processing",
-            "download": "https://github.com/tangb/raspiot/raw/master/modules/raspiot_bulksms_1.0.2.zip",
-            "sha256": "dc8b2d4ff8f60a60231a6f714fd840739b918d5c38a95bb01034ee6e367a0401",
-            "certified": true,
-            "note": 5
-        },
-        "database": {
-            "description": "Gives you access to chart feature allowing you to follow easily your devices.",
-            "deps": [],
-            "version": "1.0.0",
-            "tags": [
-                "sensors",
-                "graphs",
-                "charts"
-            ],
-            "country": "",
-            "urls": {
                 "info": null,
                 "bugs": null,
                 "site": null,
                 "help": null
             },
-            "author": "Cleep",
-            "download": null,
-            "sha256": null,
-            "price": 0,
-            "icon": "database",
-            "certified": true,
-            "note": 5
-        },
-        "developer": {
-            "description": "Help you to develop on Raspiot framework.",
-            "deps": [],
-            "version": "1.0.0",
-            "tags": [
-                "python",
-                "raspiot"
-            ],
-            "country": "",
-            "urls": {
-                "info": "https://github.com/tangb/Raspiot/wiki/Developer",
-                "bugs": null,
-                "site": null,
-                "help": null
-            },
-            "author": "Cleep",
-            "price": 0,
-            "icon": "worker",
-            "download": null,
-            "sha256": null,
-            "certified": true,
-            "note": 5
-        },
-        "freemobilesms": {
-            "description": "Sends you SMS alerts using french Freemobile provider.",
-            "deps": [],
-            "version": "1.0.0",
-            "tags": [
-                "sms",
-                "alert",
-                "communication"
-            ],
-            "country": "fr",
-            "urls": {
-                "info": null,
-                "bugs": null,
-                "site": null,
-                "help": null
-            },
-            "author": "Cleep",
-            "price": 0,
-            "icon": "message-processing",
-            "download": null,
-            "sha256": null,
-            "certified": true,
-            "note": 5
-        },
-        "gpios": {
-            "description": "Gives you access to raspberry pins to configure your inputs/ouputs as you wish.",
-            "deps": [],
-            "version": "1.0.0",
-            "tags": [
-                "sensors",
-                "actuators"
-            ],
-            "country": "",
-            "urls": {
-                "info": null,
-                "bugs": null,
-                "site": null,
-                "help": null
-            },
-            "author": "Cleep",
-            "price": 0,
-            "icon": "video-input-component",
-            "download": null,
-            "sha256": null,
-            "certified": true,
-            "note": 5
-        },
-        "messageboard": {
-            "description": "Displays your own infos on a single line LED panel.",
-            "deps": [],
-            "version": "1.0.0",
-            "tags": [
-                "display",
-                "leds"
-            ],
-            "country": "",
-            "urls": {
-                "info": null,
-                "bugs": null,
-                "site": null,
-                "help": null
-            },
-            "author": "Cleep",
-            "price": 0,
-            "icon": "counter",
-            "download": null,
-            "sha256": null,
-            "certified": true,
-            "note": 5
-        },
-        "openweathermap": {
-            "description": "Gets weather conditions using OpenWeatherMap service.",
-            "deps": [],
-            "version": "1.0.0",
-            "tags": [
-                "weather",
-                "forecast"
-            ],
-            "country": "",
-            "urls": {
-                "info": null,
-                "bugs": null,
-                "site": null,
-                "help": null
-            },
-            "author": "Cleep",
-            "price": 0,
-            "icon": "cloud",
-            "download": null,
-            "sha256": null,
-            "certified": true,
-            "note": 5
-        },
-        "pushover": {
-            "description": "Sends you push alerts using Pushover service.",
-            "deps": [],
-            "version": "1.0.0",
-            "tags": [
-                "push",
-                "alert",
-                "communication"
-            ],
-            "country": "",
-            "urls": {
-                "info": null,
-                "bugs": null,
-                "site": null,
-                "help": null
-            },
-            "author": "Cleep",
-            "price": 0,
-            "icon": "send",
-            "download": null,
-            "sha256": null,
-            "certified": true,
-            "note": 5
-        },
-        "respeaker2mic": {
-            "description": "Configures your Respeaker2mic hardware.",
-            "deps": [
-                "gpios"
-            ],
-            "version": "1.0.0",
-            "tags": [
-                "audio",
-                "mic"
-            ],
-            "country": "",
-            "urls": {
-                "info": null,
-                "bugs": null,
-                "site": null,
-                "help": null
-            },
-            "author": "Cleep",
-            "price": 0,
-            "icon": "microphone-settings",
-            "download": null,
-            "sha256": null,
-            "certified": true,
-            "note": 5
-        },
-        "sensors": {
-            "description": "Implements easily and quickly sensors you need.",
-            "deps": [
-                "gpios"
-            ],
-            "version": "1.0.0",
-            "tags": [
-                "sensors",
-                "temperature",
-                "motion",
-                "onewire",
-                "1wire"
-            ],
-            "country": "",
-            "urls": {
-                "info": null,
-                "bugs": null,
-                "site": null,
-                "help": null
-            },
-            "author": "Cleep",
-            "price": 0,
-            "icon": "chip",
-            "download": null,
-            "sha256": null,
-            "certified": true,
-            "note": 5
-        },
-        "shutters": {
-            "description": "Controls your roller shutters.",
-            "deps": [
-                "gpios"
-            ],
-            "version": "1.0.0",
-            "tags": [
-                "shutter",
-                "drape",
-                "window"
-            ],
-            "country": "",
-            "urls": {
-                "info": null,
-                "bugs": null,
-                "site": null,
-                "help": null
-            },
-            "author": "Cleep",
-            "price": 10,
-            "icon": "unfold-more-horizontal",
-            "download": null,
-            "sha256": null,
-            "certified": true,
-            "note": 5
-        },
-        "smtp": {
-            "description": "Sends you alerts by email.",
-            "deps": [],
-            "version": "1.0.0",
-            "tags": [
-                "email",
-                "alert",
-                "communication"
-            ],
-            "country": "",
-            "urls": {
-                "info": null,
-                "bugs": null,
-                "site": null,
-                "help": null
-            },
-            "author": "Cleep",
-            "price": 0,
-            "icon": "email",
-            "download": null,
-            "sha256": null,
-            "certified": true,
-            "note": 5
-        },
-        "sounds": {
-            "description": "Plays sounds or speech text you want",
-            "deps": [],
-            "version": "1.0.0",
-            "tags": [
-                "audio",
-                "sound",
-                "speech",
-                "music"
-            ],
-            "country": "",
-            "urls": {
-                "info": null,
-                "bugs": null,
-                "site": null,
-                "help": null
-            },
-            "author": "Cleep",
-            "price": 0,
-            "icon": "volume-high",
-            "download": null,
-            "sha256": null,
-            "certified": true,
-            "note": 5
-        },
-        "speechrecognition": {
-            "description": "Control your device using voice.",
-            "deps": [],
-            "version": "1.0.0",
-            "tags": [
-                "audio",
-                "voice",
-                "speech",
-                "stt",
-                "speechtotext"
-            ],
-            "country": "",
-            "urls": {
-                "info": null,
-                "bugs": null,
-                "site": null,
-                "help": null
-            },
-            "author": "Cleep",
-            "price": 0,
-            "icon": "text-to-speech",
+            "icon": "settings",
             "download": null,
             "sha256": null,
             "certified": true,
