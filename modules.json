@@ -1,5 +1,5 @@
 {
-    "update": 1539029725,
+    "update": 1539081177,
     "list": {
         "audio": {"category": "APPLICATION", "description": "Configure audio on your device", "tags": ["audio", "sound"], "country": null, "price": 0, "author": "Cleep", "changelog": "First official release", "deps": [], "longdescription": "Application that helps you to configure audio on your device", "version": "1.0.0", "urls": {"info": null, "bugs": null, "site": null, "help": null}, "icon": "speaker",
             "certified": true, "note": -1,
@@ -26,10 +26,10 @@
             "download": "https://github.com/tangb/cleepmod-parameters/releases/download/v1.0.0/cleepmod_parameters_1.0.0.zip",
             "sha256": "297cde57fe9dcddd320890010b8f7bcb7568633b4dec1338137d6081f658a187"
         },
-        "developer": {"category": "APPLICATION", "description": "Helps you to develop on CleepOS.", "tags": ["developer", "python", "cleepos", "module"], "country": null, "price": 0, "author": "Cleep", "changelog": "", "deps": [], "version": "1.0.0", "urls": {"info": "https://github.com/tangb/cleepmod-developer", "bugs": "https://github.com/tangb/cleepmod-developer/issues", "site": null, "help": "https://github.com/tangb/cleepmod-developer/wiki"}, "icon": "worker", 
+        "developer": {"category": "APPLICATION", "description": "Helps you to develop on CleepOS.", "tags": ["developer", "python", "cleepos", "module", "angularjs"], "country": null, "price": 0, "author": "Cleep", "changelog": "First official release.", "deps": [], "longdescription": "Developer module helps you to develop on CleepOS installing and preconfiguring remote sync tools. It also provides a full page that helps you to check and build your own module.<br/>This module will provide the official way to publish your module on CleepOS market.<br/><br/>Lot of resources are available on developer module wiki, have a look and start enjoying CleepOS!", "version": "1.0.0", "urls": {"info": "https://github.com/tangb/cleepmod-developer", "bugs": "https://github.com/tangb/cleepmod-developer/issues", "site": null, "help": "https://github.com/tangb/cleepmod-developer/wiki"}, "icon": "worker", 
             "certified": true, "note": 0,
             "download": "https://github.com/tangb/cleepmod-developer/releases/download/v1.0.0/cleepmod_developer_1.0.0.zip",
-            "sha256": "346cf6c984d408394370794606cae341379538931fc9f1064b6510b24cf68157"
+            "sha256": "e0d60ada39c5a7d4b4e39f3808b9f3c7cd3cfafee1564971a19164043397b48d"
         }
     }
 }
